@@ -1,0 +1,114 @@
+html {
+	position: relative; /*allow for the footer to be position absolute and know where its starting point is*/
+	min-height: 100%; /*ensures we use the whole screen size for height so the footer can be shown at the bottom*/
+}
+
+body {
+    /*generic font styles should go here*/
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #767c7e;
+	background-color: #e3e0cf;
+	color: white;
+	margin-bottom: 90px;
+}
+
+body > header {
+    width: 550px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+body > header h1 {
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.container {
+    width: 1170px; /*Desktop Width of Container*/
+    margin: 0 auto; /*Centers the container on your screen*/
+    max-width: 100%; /* Makes sure that the content shrinks responsively */
+}
+
+#topNav {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#topNav ul li {
+    display: inline-block;
+    padding: 0 15px; /*spacing between each menu item*/
+    position: relative;
+}
+
+#topNav li:after {
+	content: "|"; /* the content that should be displayed after each li*/
+	position: absolute; /*allow for absolute positioning of the / */
+	right: 0; /*place it 0 pixels from the right*/
+}
+
+#topNav li:last-child:after {
+	content: ""; /*do not include / after the last menu item*/
+}
+
+#bannerImage {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#bannerImage > img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body > header, body > footer {
+    background-color: #9fa8a3;
+    min-height: 80px;
+    width: 100%;
+}
+
+body > footer {
+	position: absolute; /*forces the footer position to be in a specific place*/
+	bottom: 0; /*tells the footer to be zero pixels from the bottom of the html tag*/
+}
+
+.blogPostsSnippitList {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogPostSnippit {
+    background-color: #c5d5cb;
+    border-color: black;
+    padding: 6px;
+    margin: 17px;
+}
+
+.blogPostSnippit header {
+    background-color: #fff;
+    color: #c5d5cb;
+    padding: 3px 5px;
+}
+
+.blogPostSnippit .snippitTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blogPostSnippit .snippitDetails {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.blogPostSnippit main {
+    padding-top: 5px;
+    padding-left: 5px;
+}
