@@ -1,13 +1,13 @@
 class BlogPost 
 {
-    public comment: string
+    public comments: Array<BlogComment> = new Array<BlogComment>()
     
-    constructor (public title: string, public author: User, public date: Date, public location: string)
+    constructor (public title: string, public author: User, public date: Date, public location: string, public content: string)
     {
     }
     
-    addComment(newComment:string) {
-        this.comment = newComment;
+    addComment(newComment:BlogComment) {
+        this.comments.push(newComment);
     }
 }
 

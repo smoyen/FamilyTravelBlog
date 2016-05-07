@@ -1,12 +1,14 @@
 var BlogPost = (function () {
-    function BlogPost(title, author, date, location) {
+    function BlogPost(title, author, date, location, content) {
         this.title = title;
         this.author = author;
         this.date = date;
         this.location = location;
+        this.content = content;
+        this.comments = new Array();
     }
     BlogPost.prototype.addComment = function (newComment) {
-        this.comment = newComment;
+        this.comments.push(newComment);
     };
     return BlogPost;
 }());
