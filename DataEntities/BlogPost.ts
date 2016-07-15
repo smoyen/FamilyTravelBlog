@@ -9,6 +9,7 @@ class BlogPost
     addComment(newComment:BlogComment) {
         this.comments.push(newComment);
     }
+    // todo - add getters and setters for edit functionality
 }
 
 //var myBlogpost = new Blogpost("Sam", new Date(), "Minneapolis");
