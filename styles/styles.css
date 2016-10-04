@@ -1,3 +1,7 @@
+/* colors to use
+#015249 - forest green
+#A5A5AF - sleek gray
+*/
 html {
 	position: relative; /*allow for the footer to be position absolute and know where its starting point is*/
 	min-height: 100%; /*ensures we use the whole screen size for height so the footer can be shown at the bottom*/
@@ -5,11 +9,14 @@ html {
 
 body {
     /*generic font styles should go here*/
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	background-color: #e3e0cf;
-	color: white;
+	background-color: white;
 	margin-bottom: 90px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 body > header {
@@ -62,13 +69,15 @@ body > header h1 {
 
 #bannerImage > img {
     display: block;
-    width: 100%;
+    max-width: 100%;
+		max-height: 700px;
     margin-left: auto;
     margin-right: auto;
 }
 
 body > header, body > footer {
-    background-color: #9fa8a3;
+    background-color: white;
+		color: #57BC90; /* marine - green */
     min-height: 80px;
     width: 100%;
 }
@@ -76,6 +85,7 @@ body > header, body > footer {
 body > footer {
 	position: absolute; /*forces the footer position to be in a specific place*/
 	bottom: 0; /*tells the footer to be zero pixels from the bottom of the html tag*/
+	background-color: #A5A5AF /* sleek gray */
 }
 
 .blogPostsSnippitList {
@@ -85,15 +95,18 @@ body > footer {
 }
 
 .blogPostSnippit {
-    background-color: #c5d5cb;
-    border-color: black;
+    background-color: white;
+		color: #57BC90; /* marine - green */
+		border: thin solid #77C9D4; /* feather light blue*/
     padding: 6px;
     margin: 17px;
 }
 
 .blogPostSnippit header {
-    background-color: #fff;
-    color: #c5d5cb;
+		background-color: white;
+		color: #57BC90; /* marine - green */
+		border-left: thick solid #77C9D4; /* feather light blue*/
+		border-bottom: thin solid #77C9D4; /* feather light blue*/
     padding: 3px 5px;
 }
 

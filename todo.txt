@@ -1,0 +1,4 @@
+- move anything but the static html to another folder
+- change out family picture
+- fill out other pages with lorum epsum
+- change color theme of website
