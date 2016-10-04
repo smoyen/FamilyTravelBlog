@@ -124,3 +124,22 @@ body > footer {
     padding-top: 5px;
     padding-left: 5px;
 }
+
+/* sam-wanders styling - will probably end up using for other wander pages*/
+#leftNav {
+	width: 14%;
+	min-width: 40px;
+	display: block;
+	float: left;
+}
+
+#leftNav li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+#mainContentWithNav {
+	width: 85%;
+	float: right;
+}
