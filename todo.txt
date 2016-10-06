@@ -1,4 +1,7 @@
-- move anything but the static html to another folder
-- change out family picture
-- fill out other pages with lorum epsum
-- change color theme of website
+- fill out sub pages with content
+--> about
+--> other blogging section
+- cooler home page?
+Sam Wanders
+purpose of site: just a girl. with an awesome family. who codes. loves food and drink, mn, and travels.
+sub sections of site: about me, mn eats, best of mn, passion projects, travels, family times, beerology, laughs, dogs
